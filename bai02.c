@@ -18,13 +18,14 @@ int songuyento (int n){
 int main(int argc, char *argv[]) {
     int num1, num2;
     int i;
+    int c= pow(10,9);
     if (argc !=3) {
         printf("Usage: %s <number1> <number2> \n", argv[0]);
         return 1;
     }
     num1 = atoi(argv[1]);
      num2 =atoi(argv[2]);
-     if((num1>num2)||(num1<0|num2<0)||num2>=(10^9)){
+     if((num1>num2)||(num1<0||num2<0)||(num2>=c)){
         printf("khoang so ban nhap khong dung vui long nhap lai");
      }else{
     for(i=num1; i<= num2; i++){
