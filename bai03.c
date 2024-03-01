@@ -14,22 +14,22 @@ int main(int argc, char *argv[]){
    char d[10]={'d','o','u','b','l','e'};
    char e[10]={'a','l','l'};
     if (strcmp(c,argv[1])==0){
-        printf(" \n size of %s : %d bytes",argv[1],sizeof(int));
+        printf("size of %s : %d bytes",argv[1],sizeof(int));
         printf("\nvalue range %s: %d to %d",argv[1],INT_MIN,INT_MAX);}
        else{ if (strcmp(b,argv[1])==0){
-            printf(" \n size of %s : %d bytes",argv[1],sizeof(float));
+            printf(" size of %s : %d bytes",argv[1],sizeof(float));
              printf("\nvalue range %s: %.10e to %.10e",argv[1],FLT_MIN,FLT_MAX);
         }else{
             if(strcmp(a,argv[1])==0){
-                printf(" \n size of %s : %d bytes",argv[1],sizeof(char));
+                printf(" size of %s : %d bytes",argv[1],sizeof(char));
                  printf("\nvalue range %s: %d to %d",argv[1],CHAR_MIN,CHAR_MAX);
             }else {
             if(strcmp(d,argv[1])==0){
-               printf(" \n size of %s : %d bytes",argv[1],sizeof(double));
+               printf(" size of %s : %d bytes",argv[1],sizeof(double));
                 printf("\nvalue range %s: %.10e to %.10e",argv[1],DBL_MIN,DBL_MAX);
             }else{
                 if(strcmp(e,argv[1])==0){
-                printf(" \n size of int : %d bytes",sizeof(int));
+                printf(" size of int : %d bytes",sizeof(int));
                 printf("\nvalue range int: %d to %d",INT_MIN,INT_MAX);
                 printf(" \n size of float : %d bytes",sizeof(float));
                 printf("\nvalue range float: %.10e to %.10e",FLT_MIN,FLT_MAX);
