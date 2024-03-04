@@ -21,11 +21,11 @@ union kichcosanpham{
       char h[20];
       printf("Enter the number of products:");
       scanf("%d",&e.a);
+      getchar();
       for(int i=1;i<=e.a;i++){
       printf("\nEnter information for product %d:",i);
       printf("\nName:");
       fgets(e.b,sizeof(e.b),stdin);
-      scanf("%s",&e.b);
       printf("%s",e.b);
       printf("Price:");
       scanf("%f",&e.c);
