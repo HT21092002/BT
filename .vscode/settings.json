@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "typeinfo": "c",
+        "iostream": "cpp",
+        "random": "c",
+        "math.h": "c"
+    }
+}
